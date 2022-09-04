@@ -23,9 +23,9 @@
 hs_err_pid*
 
 .idea
-.hprofS
+*.hprofS
 \out
-.iml
+*.iml
 /app/app.iml
 /java_pid22056.hprof.analysis
-
+*.hprof

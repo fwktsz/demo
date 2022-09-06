@@ -8,7 +8,7 @@ at java.util.ArrayList.grow(ArrayList.java:267)
 at java.util.ArrayList.ensureExplicitCapacity(ArrayList.java:241)
 at java.util.ArrayList.ensureCapacityInternal(ArrayList.java:233)
 at java.util.ArrayList.add(ArrayList.java:464)
-at com.kk.oom.HeapOOM.main(HeapOOM.java:19)
+at com.kk.oom02.HeapOOM.main(HeapOOM.java:19)
 
 #### 对于Java堆 OOM，
 1. 开启 -XX：+HeapDumpOnOutOf-MemoryError 

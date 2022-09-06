@@ -1,4 +1,4 @@
-package com.kk.oom;
+package com.kk.oom02;
 
 /**
  * VM Args：-Xss128k

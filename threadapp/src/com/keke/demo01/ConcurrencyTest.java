@@ -8,6 +8,8 @@ public class ConcurrencyTest {
     private static final long count = 100000000L;
 
     public static void main(String[] args) throws InterruptedException {
+
+
         concurrency();
         serial();
     }

@@ -5,7 +5,7 @@ package com.keke.demo04;
  */
 public class CThread {
     public static void main(String[] args) {
-        Thread
+
     }
 
 

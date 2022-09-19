@@ -3,6 +3,7 @@ package com.keke.demo04;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 优雅的结束线程
  * @author k 2022/9/19 23:21
  */
 public class Shutdown {

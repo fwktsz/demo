@@ -65,8 +65,6 @@ public class A1B2C3 {
                     } catch (InterruptedException e) {
                         throw new RuntimeException(e);
                     }
-
-
                 }
             }
         }

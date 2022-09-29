@@ -13,6 +13,12 @@ synchronized关键字就不那么容易实现了，而使用Lock却容易许多�
 
 Lock接口提供的synchronized关键字不具备的主要特性如下：
 
+1. 尝试非阻塞的获取锁
+2. 能被中断的获取锁
+3. 超时获取锁
+
+lock的api
+
 ### 队列同步器 AbstractQueuedSynchronizer AQS
 
 AQS 是构建锁或者其他同步组件的基础框架

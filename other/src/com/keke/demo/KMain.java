@@ -1,6 +1,7 @@
 package com.keke.demo;
 
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 /**
@@ -9,6 +10,9 @@ import java.time.format.DateTimeFormatter;
  */
 public class KMain {
     public static void main(String[] args) {
+
+        LocalTime now = LocalTime.now();
+        int hour = now.getHour();
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         String format = dtf.format(LocalDateTime.now());
         System.out.println(format);

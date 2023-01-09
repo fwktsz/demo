@@ -6,6 +6,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class SpringApp {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
+
+        ApplicationContext context = new ClassPathXmlApplicationContext("application.xml");
+        Object person = context.getBean("person");
+        System.out.println(person);
     }
 }

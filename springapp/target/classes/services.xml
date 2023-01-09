@@ -5,7 +5,8 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="person" class="com.keke.entity.Person"></bean>
+        
+
 
     <!-- more bean definitions go here -->
 
